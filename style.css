@@ -12,12 +12,45 @@ nav {
     background-color: #01049f;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
 nav img {
     width: 160px;
+}
+
+.icon__cart {
+    width: 30px;
+    margin: 0 1em;
+    fill: white;
 }
 
 .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 1em;
+    gap: 1em;
+}
+
+.product__title {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.product__price {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.product__button {
+    color: #16AC47;
+    font-weight: bold;
+    border: 0;
+    background-color: transparent;
 }
