@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: graphik, Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #01049f;
+}
+
+nav img {
+    width: 160px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
